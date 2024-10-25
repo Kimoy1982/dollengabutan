@@ -1,0 +1,118 @@
+<!DOCTYPE html> 
+<html>
+<head>
+	<style>
+
+		h1{
+			position:fixed;
+			top: 0px;
+			left:0px;
+			padding:10px;
+			margin: 0px;
+			width:100%;
+			background-color: #efefef;
+            z-index: 12;
+
+		}
+
+		image{
+			position:absolute;
+            float: right;
+            z-index: 8;
+		}
+
+        blockquote{
+            float:right;
+            width: 275px;
+            font-size: 130%;
+            font-style: italic;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            margin: 0px 0px 10px 10px;
+            padding: 10px;
+            border-top: 1px solid #665566;
+            border-bottom: 1px solid #665522;
+
+        }
+
+        .column1of3{
+
+            
+            background-color: #efefef;
+            font-size: large;
+            width: 300px;
+            float: left;
+            margin: 10px;
+            border: 1px solid black;
+            padding: 20px;
+            box-shadow: 5px 10px red;
+            z-index: 6;
+
+
+        }
+
+        .column2of3{
+
+
+            position: absolute;
+            top: 500px;
+            left: 400px;
+            background-color: antiquewhite;
+            width: 300px;
+            margin: 10px;
+            border: 1px solid black;
+            padding: 20px;
+            box-shadow: 5px 10px red;
+            z-index: 4;
+        }
+
+        .column3of3{
+
+            position: absolute;
+            top: 500px;
+            right: 200px;
+            background-color: beige;
+            width: 300px;
+            margin: 10px;
+            border: 1px solid black;
+            padding: 20px;
+            box-shadow: 5px 10px red;
+            z-index: 4;
+        }
+        .colText{
+            width: 80%;
+        }
+	</style>
+</head>
+
+<body>
+
+
+	<h1> The Evolution of the Bicycle </h1>
+	<img src="data:image/jpeg;base64,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">
+<div class="column1of3">
+    <p class="first">According to some historians it is almost 200 years since the first documented bike ride by Karl von Drais in 1817 and the city of Mannheim in Germany is planning to celebrate this bicentenary with a major exhibition. The answer to the question of who invented the first bicycle often depends upon the nationality of who you ask as over the years many people have contributed ideas and developments. </p>
+
+    <p>Let’s take a look at the evolution of the bicycle, showing the craze for cycling is nothing new.</p>
+        
+    <p>1493: the Earliest Bicycle Sketch…</p>
+        
+    <p>It has been said that Leonardo da Vinci was the first person to ever visualise the concept of a bicycle but was unable to construct it.  News of a bicycle-like sketch is said to have been discovered during the ten-year restoration period of the Codex Atlanticus in the 1970s that had not been seen for 500 years. </p>
+
+    <blockquote cite="https://www.brainyquote.com/topics/life-quotes">
+        Life is really simple, but we insist on making it complicated.
+    </blockquote>
+
+</div>
+
+<div class="column2of3">
+<h2 class="colText">Mid-1870s: the ‘High Wheel’ era</h2>
+    <p>‘Penny-farthing‘, ‘high wheel’, ‘high wheeler’, and ‘ordinary’ were all terms used to describe a type of bicycle with a large front wheel and a much smaller rear wheel that was popular after the boneshaker. They were the first machines to be called “bicycles.”</p>
+</div>
+
+<div class="column3of3">
+    <h2 class="colText">1888: the Pneumatic Tyre</h2>
+    <p>John Boyd Dunlop was a Scottish vet living in Belfast. His son complained that when he rode his bicycle to school the cobbled streets made his bottom sore. Dunlop solved his son’s problem by inventing the inner tube and patented the pneumatic tyre which was essentially a hosepipe inside an outer rubber tyre with treads. But the patent was reversed two years later because of a previous patent by Scottish inventor Robert William Thompson. </p>
+</div>
+
+
+</html>
