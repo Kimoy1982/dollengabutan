@@ -1,18 +1,107 @@
 <!DOCTYPE html>
 
 <html>
+    <head>
+    <style>
+    #page{
+            position: relative;
+            top:0px;
+            width: 100%;
+            float: center;
+            margin: 10px;
+            border: 2px solid black;
+            padding: 20px;
+            z-index: 6;
+            background-color: aliceblue;
+    }
+    nav{
+            background-color: rgb(208, 243, 243);
+    }
+    #content{
+        
+            float:left;
+            top: 10px;
+            width: 60%;
+            height: 300px;
+            margin: 10px;
+            border: 1px solid black;
+            padding: 20px;
+            z-index: 4;
+            background-color: aliceblue;
+
+    }
+    aside {
+            float:right;
+            top: 10px;
+            width: 21%;
+            height: 300px;
+            margin: 10px;
+            border: 1px solid black;
+            padding: 20px;
+            z-index: 4;
+            background-color: aliceblue;
+    }
+    footer{
+            position: relative;
+            float:bottom;
+            top: 400px;
+            width: 100%;
+            border: 1px solid black;
+            margin: 10px;
+            padding: 20px;
+            z-index: 1;
+            background-color: aliceblue;
+            text-align: center;
+    }
+    </style>
+    </head>
+
 	<body>
-		<h1>Dollen T. Gabutan</h1>
-		<h2>CCS1-E</h2>
-		
-		<div>
+	<div id="page">
+	<header>
+    <hgroup>
+		<h1>Name: Dollen T. Gabutan</h1>
+		<h2>Subject: CCS1</h2>
+		<h2>Section: E</h2>
+    </hgroup>
+	</header>
+	<nav>
 		<ul>List of Exercises</ul>
 			<li> <a href="Gabutan_CSS Exercise 2.1.html">Exercise 2.1</a></li>
 			<li> <a href="Gabutan_CSS Exercise 2.2.html">Exercise 2.2</a></li>
-			<li> <a href="Exercise 2.3.html">Exercise 2.3</a></li>
+	        <li> <a href="Gabutan_CSS_Exercise 2.3.html">Exercise 2.3</a></li>
+	</nav>
+	</div>
+
+	<div id="content">
+
+    <article>
+    <h2>CSS Exercise 2.1</h2>
+    <p>Use the following CSS font & text, class/ID selectors, background. Changing the appearance of Names, Objects, Amount, Even Stanza and Odd Stanza. Use images in the background or each stanza.</p>
+    </article>
+    <article>
+        <h2>CSS Exercise 2.2</h2>
+        <p>Reproduce the following by using CSS boxes (margin, padding, border), float and links.</p>
+    </article>
+    <article>
+        <h2>CSS Exercise 2.3</h2>
+        <p>Present data using block element. Adding box offset properties, floating elements and z-index</p>
+    </article>	
+	</div>
+    <aside>
+        <section>
+        <h3>Sources</h3>
+        <a href="https://en.wikipedia.org/wiki/Main_Page" target="_blank"> search </a>
+        </section>
+    </aside>
+
+    <footer>
+        <p>CSS Exercises</p>
+        
+    </footer>
 	
-
-
 
 	</body>
 </html>
+
+
